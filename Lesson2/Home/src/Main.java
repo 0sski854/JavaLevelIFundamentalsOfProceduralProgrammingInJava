@@ -1,7 +1,10 @@
 import java.util.Scanner;
 
 public class Main {
-
+	/*
+	 * Cos
+	 * 
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String imie; // w nim zapiszemy swoje imie
