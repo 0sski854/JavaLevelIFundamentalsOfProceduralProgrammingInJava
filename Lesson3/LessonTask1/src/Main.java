@@ -15,12 +15,16 @@ public class Main {
 		liczba2 = scanInt.nextInt();
 
 		int operator;
-		System.out.println("Wprowadz operator(1 - dodawanie, 2- odejmowanie, 3- mnozenie, 4-dzielenie):");
+		System.out.println("Wprowadz operator(1- dodawanie, 2- odejmowanie, 3- mnozenie, 4-dzielenie):");
 		operator =  scanInt.nextInt();
 		if (operator == 1){System.out.println(liczba1 + liczba2);
+		}else if (operator == 2){System.out.println(liczba1 - liczba2);
+		}else if (operator == 3){System.out.println(liczba1 * liczba2);
+		}else System.out.println("wybierzInnaLiczbe!");
+			
+		
 		
 		}
 		
-	}
 
-}
+	}
