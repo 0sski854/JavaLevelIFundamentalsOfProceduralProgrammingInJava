@@ -4,6 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.out.println("WYLICZANIE PRZECIWPROSTOKATNEJ");
+		System.out.println();
 		Scanner scan = new Scanner(System.in);
 		int a;
 		int b;
